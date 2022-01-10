@@ -1,4 +1,4 @@
-// Challah Byard, 01/10/22, AP Data Lab 2022, v0.2
+// Challah Byard, 01/10/22, AP Data Lab 2022, v0.3
 
 public class Cereal 
 {
@@ -15,5 +15,14 @@ public class Cereal
     fiber = fiber;
     cups = cups;
     FPC = fiberPerCup;
+
+    }
+
+    public Cereal()
+    {
+       name = "";
+       fiber = 0.0;
+       cups = 0.0;
+       FPC = 0.0;
         
     }
