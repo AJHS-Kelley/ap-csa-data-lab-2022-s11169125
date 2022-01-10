@@ -1,4 +1,4 @@
-// Challah Byard, 01/10/22, AP Data Lab 2022, v0.3
+// Challah Byard, 01/10/22, AP Data Lab 2022, v0.4
 
 public class Cereal 
 {
@@ -25,4 +25,24 @@ public class Cereal
        cups = 0.0;
        FPC = 0.0;
         
+    }
+
+    // Getters 
+
+    public String getName()
+    { 
+        return name;
+    }
+
+    public double getfiber()
+    {
+        return fiber;
+    }
+    public double getcups()
+    {
+        return cups;
+    }
+    public double getFPC
+    {
+        return FPC;
     }
