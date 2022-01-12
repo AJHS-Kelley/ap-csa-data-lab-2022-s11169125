@@ -1,4 +1,4 @@
-// Challah Byard, 01/10/22, AP Data Lab 2022, v0.5
+// Challah Byard, 01/12/22, AP Data Lab 2022, v0.6
 
 public class Cereal 
 {
@@ -49,14 +49,18 @@ public class Cereal
     // toString method
     public String toString ()
     {
-        return "cereal: " + nsme + "fibercontent: " + fiber + "serving size (in cups): " + cups + "fiber per cup: " + FPC;
+        return "cereal: " + name + "fibercontent: " + fiber + "serving size (in cups): " + cups + "fiber per cup: " + FPC;
 
     }
 
     public static void main(String[]args)
     {
       Cereal food1 = new Cereal();
-       system.out.println(food1.toString());
+       System.out.println(food1.toString());
         
+       Cereal food2 = new Cereal("Apple Jack",1,1,0.0);
+       System.out.println(food2.toString());
 
     }
+
+}
