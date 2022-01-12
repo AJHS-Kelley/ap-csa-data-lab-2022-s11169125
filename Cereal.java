@@ -1,4 +1,4 @@
-// Challah Byard, 01/10/22, AP Data Lab 2022, v0.4
+// Challah Byard, 01/10/22, AP Data Lab 2022, v0.5
 
 public class Cereal 
 {
@@ -45,4 +45,18 @@ public class Cereal
     public double getFPC
     {
         return FPC;
+    }
+    // toString method
+    public String toString ()
+    {
+        return "cereal: " + nsme + "fibercontent: " + fiber + "serving size (in cups): " + cups + "fiber per cup: " + FPC;
+
+    }
+
+    public static void main(String[]args)
+    {
+      Cereal food1 = new Cereal();
+       system.out.println(food1.toString());
+        
+
     }
